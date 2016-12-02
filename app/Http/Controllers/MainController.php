@@ -8,7 +8,7 @@ use App\Phone_book;
 
 class MainController extends Controller
 {
-    
+
     public function index()
     {
         $phones = Phone_book::orderBy('id', 'desc')->get();
